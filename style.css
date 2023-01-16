@@ -12,7 +12,7 @@ body {
     display: flex;
     /* margin: auto; */
     border: 10px solid rgb(255, 64, 0);
-    width: 100%;
+    width: auto;
     flex-wrap: wrap;
 }
 #main{
