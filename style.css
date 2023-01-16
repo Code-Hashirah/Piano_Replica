@@ -22,7 +22,7 @@ body {
     justify-content: space-evenly;
 }
 #main > #keys{
-    background-color: white;
+    background-color: rgb(232, 226, 226);
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -30,7 +30,7 @@ body {
 }
 
 #side-keys{
-    border: 1px solid blue;
+    padding-left: 15px;
     display: flex;
     width: 20%;
     flex-wrap: wrap;
@@ -55,22 +55,37 @@ body {
 #main .keys{
     height: 180px;
     width: 50px;
+    border: 1px solid black;
 }
+
+#main .black-keys{
+    height: 120px;
+    width: 25px;
+    background-color: black;
+}
+
 
 #topmost{
     background-color: white;
-    width: 60%;
+    width: 65%;
     display: flex;
     justify-content: space-evenly;
 }
 #topless{
     background-color: orangered;
-    width: 20%;
+    width: 15%;
    display: flex;
    height: fit-content;
 }
+#topless > p{
+    text-align: right;
+    color: orange;
+    text-shadow: 2px 2px 2px;
+    font-size: 22px;
+}
 .btn{
     height: 100%;
+    width: 70%;
 }
 .btn-bas{
     height: 100px;
