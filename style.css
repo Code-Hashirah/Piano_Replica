@@ -1,0 +1,82 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    /* display: flexbox; */
+    padding: 10px;
+}
+#casing{
+    display: flex;
+    /* margin: auto; */
+    border: 10px solid rgb(255, 64, 0);
+    width: 100%;
+    flex-wrap: wrap;
+}
+#main{
+    width: 80%;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#main > #keys{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#side-keys{
+    border: 1px solid blue;
+    display: flex;
+    width: 20%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#brand{
+    width: 20%;
+    text-align: center;
+ }
+
+#side-keys  .buton-bas{
+    height: 100px;
+}
+
+#side-keys  .buton{
+    /* margin: 10px; */
+    width: 50%;
+    border: 1px solid black;
+    height: 50px;
+}
+
+#main .keys{
+    height: 180px;
+    width: 50px;
+}
+
+#topmost{
+    background-color: white;
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+}
+#topless{
+    background-color: orangered;
+    width: 20%;
+   display: flex;
+   height: fit-content;
+}
+.btn{
+    height: 100%;
+}
+.btn-bas{
+    height: 100px;
+}
+#base{
+    height: 10px;
+    background-color: white;
+    box-shadow: 2px 2px 2px 2px;
+}
