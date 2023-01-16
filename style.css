@@ -118,20 +118,21 @@ body {
     display: flex;
 }
 
-@media only screen and (min-width:280px) {
+@media only screen and (max-width:580px) {
     body{
         max-zoom:100%;
     }
     html{
-        max-zoom: .8;
+        max-zoom: 2;
     }
     #casing{
         width: fit-content;
         height: fit-content;
-        zoom: 100%;
+        /* zoom: 100%; */
     }
 }
-/* @-ms-viewport{
-    width: 480px;
-    zoom: 1;
-} */
+
+@-o-viewport{
+    max-width: 480px;
+    zoom: .5;
+}
