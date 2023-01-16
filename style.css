@@ -27,28 +27,42 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    height: auto;
 }
 
 #side-keys{
-    padding-left: 15px;
+    padding-left: 10px;
+    padding-bottom: 10px;
     display: flex;
     width: 20%;
     flex-wrap: wrap;
     justify-content: space-between;
+    /* height: auto; */
 }
 #brand{
+    padding: 5px;
     width: 20%;
     text-align: center;
+    display: flex;
+    font-size: large;
+ }
+
+ #brand > #p{
+    font-size: 22px;
+    font-weight: bolder;
  }
 
 #side-keys  .buton-bas{
-    height: 100px;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
 }
 
 #side-keys  .buton{
     /* margin: 10px; */
     width: 50%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 50px;
 }
 
@@ -56,10 +70,11 @@ body {
     height: 180px;
     width: 50px;
     border: 1px solid black;
+    height: 250px;
 }
 
 #main .black-keys{
-    height: 120px;
+    height: 160px;
     width: 25px;
     background-color: black;
 }
@@ -80,18 +95,25 @@ body {
 #topless > p{
     text-align: right;
     color: orange;
-    text-shadow: 2px 2px 2px;
+    text-shadow: 2px 2px 2px white;
     font-size: 22px;
 }
 .btn{
     height: 100%;
-    width: 70%;
+    width: 50%;
+    border: 1px solid black;
 }
 .btn-bas{
-    height: 100px;
+    margin-top: 5px;
+    height: 150px;
+    width: 50%;
+    border: 1px solid black;
 }
 #base{
     height: 10px;
     background-color: white;
     box-shadow: 2px 2px 2px 2px;
+}
+#longbutton{
+    display: flex;
 }
